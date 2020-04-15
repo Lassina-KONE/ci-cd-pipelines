@@ -13,6 +13,11 @@ pipeline{
 				sh 'echo "Testing..."'
 			}
 		}
+		stage('Lint'){
+			steps{
+				sh 'echo "Testing..."'
+			}
+		}
 
 		stage('Deploy'){
 			steps{
